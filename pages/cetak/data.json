@@ -1,0 +1,121 @@
+[
+    {
+        "KODE": "001",
+        "KETERANGAN": "Bank A",
+        "REKENING": "REK001",
+        "ADMINISTRASI": "1000",
+        "PENARIKANTUNAI": "Y"
+    },
+    {
+        "KODE": "002",
+        "KETERANGAN": "Bank A",
+        "REKENING": "REK002",
+        "ADMINISTRASI": "1000",
+        "PENARIKANTUNAI": "Y"
+    },
+    {
+        "KODE": "003",
+        "KETERANGAN": "Bank A",
+        "REKENING": "REK003",
+        "ADMINISTRASI": "1000",
+        "PENARIKANTUNAI": "Y"
+    },
+    {
+        "KODE": "004",
+        "KETERANGAN": "Bank A",
+        "REKENING": "REK004",
+        "ADMINISTRASI": "1000",
+        "PENARIKANTUNAI": "Y"
+    },
+    {
+        "KODE": "005",
+        "KETERANGAN": "Bank A",
+        "REKENING": "REK005",
+        "ADMINISTRASI": "1000",
+        "PENARIKANTUNAI": "Y"
+    },
+    {
+        "KODE": "006",
+        "KETERANGAN": "Bank A",
+        "REKENING": "REK006",
+        "ADMINISTRASI": "1000",
+        "PENARIKANTUNAI": "T"
+    },
+    {
+        "KODE": "007",
+        "KETERANGAN": "Bank A",
+        "REKENING": "REK007",
+        "ADMINISTRASI": "1000",
+        "PENARIKANTUNAI": "Y"
+    },
+    {
+        "KODE": "008",
+        "KETERANGAN": "Bank A",
+        "REKENING": "REK008",
+        "ADMINISTRASI": "1000",
+        "PENARIKANTUNAI": "Y"
+    },
+    {
+        "KODE": "009",
+        "KETERANGAN": "Bank A",
+        "REKENING": "REK009",
+        "ADMINISTRASI": "1000",
+        "PENARIKANTUNAI": "Y"
+    },
+    {
+        "KODE": "010",
+        "KETERANGAN": "Bank A",
+        "REKENING": "REK010",
+        "ADMINISTRASI": "1000",
+        "PENARIKANTUNAI": "Y"
+    },
+    {
+        "KODE": "011",
+        "KETERANGAN": "Bank A",
+        "REKENING": "REK011",
+        "ADMINISTRASI": "1000",
+        "PENARIKANTUNAI": "Y"
+    },
+    {
+        "KODE": "012",
+        "KETERANGAN": "Bank A",
+        "REKENING": "REK012",
+        "ADMINISTRASI": "1000",
+        "PENARIKANTUNAI": "Y"
+    },
+    {
+        "KODE": "013",
+        "KETERANGAN": "Bank A",
+        "REKENING": "REK013",
+        "ADMINISTRASI": "1000",
+        "PENARIKANTUNAI": "Y"
+    },
+    {
+        "KODE": "014",
+        "KETERANGAN": "Bank A",
+        "REKENING": "REK014",
+        "ADMINISTRASI": "1000",
+        "PENARIKANTUNAI": "Y"
+    },
+    {
+        "KODE": "015",
+        "KETERANGAN": "Bank A",
+        "REKENING": "REK015",
+        "ADMINISTRASI": "1000",
+        "PENARIKANTUNAI": "Y"
+    },
+    {
+        "KODE": "016",
+        "KETERANGAN": "Bank A",
+        "REKENING": "REK016",
+        "ADMINISTRASI": "1000",
+        "PENARIKANTUNAI": "Y"
+    },
+    {
+        "KODE": "017",
+        "KETERANGAN": "Bank A",
+        "REKENING": "REK017",
+        "ADMINISTRASI": "1000",
+        "PENARIKANTUNAI": "Y"
+    }
+]
