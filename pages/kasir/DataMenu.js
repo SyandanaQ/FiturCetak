@@ -296,40 +296,39 @@ function DataMenu() {
 
                         {/* Tombol untuk checkout, implementasinya bisa disesuaikan dengan kebutuhan */}
                         <Button label="Checkout" className="p-button-success" style={{ marginTop: '10px' }} onClick={() => setVisible(true)} />
-                <Dialog header="Items in Cart" visible={visible} style={{ width: '50vw' }} onHide={() => setVisible(false)} footer={footerContent}>
-                    <>
-                        {cartData.map((item) => {
-                            // Membersihkan nilai 'Rp. angka harga,-' dan mengonversinya menjadi angka
-                            const priceArray = item.price.split('Rp. ')[1].split(',-');
-                            const cleanedPrice = Number(priceArray[0].replace(/\./g, ''));
+                        <Dialog header="Items in Cart" visible={visible} style={{ width: '50vw' }} onHide={() => setVisible(false)} footer={footerContent}>
+                            <>
+                                {cartData.map((item) => {
+                                    // Membersihkan nilai 'Rp. angka harga,-' dan mengonversinya menjadi angka
+                                    const priceArray = item.price.split('Rp. ')[1].split(',-');
+                                    const cleanedPrice = Number(priceArray[0].replace(/\./g, ''));
 
-                            return (
-                                <div key={item.id}>
-                                    <p>
-                                        {item.name}  {item.qty} - Price: {item.price} 
-                                    </p>
-                                </div>
-                            );
-                        })}
+                                    return (
+                                        <div key={item.id}>
+                                            <p>
+                                                {item.name} {item.qty} - Price: {item.price}
+                                            </p>
+                                        </div>
+                                    );
+                                })}
 
-                        {/* Menampilkan total harga keseluruhan */}
-                        <br />
-                        <p>
-                            Total Harga Keseluruhan: {cartData.reduce((total, item) => {
-                                const priceArray = item.price.split('Rp. ')[1].split(',-');
-                                const cleanedPrice = Number(priceArray[0].replace(/\./g, ''));
-                                return total + item.qty * cleanedPrice;
-                            }, 0)}
-                        </p>
-                    </>
-                </Dialog>
+                                {/* Menampilkan total harga keseluruhan */}
+                                <br />
+                                <p>
+                                    Total Harga Keseluruhan:{' '}
+                                    {cartData.reduce((total, item) => {
+                                        const priceArray = item.price.split('Rp. ')[1].split(',-');
+                                        const cleanedPrice = Number(priceArray[0].replace(/\./g, ''));
+                                        return total + item.qty * cleanedPrice;
+                                    }, 0)}
+                                </p>
+                            </>
+                        </Dialog>
                     </div>
                 </div>
             </div>
         </div>
     );
 }
-
-    
 
 export default DataMenu;
